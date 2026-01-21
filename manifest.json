@@ -1,0 +1,10 @@
+{
+    "package": "browser_navigation",
+    "name": "Browser Navigation Buttons",
+    "author": "",
+    "version": "1.0.0",
+    "homepage": "",
+    "conflicts": [],
+    "min_anki_version": "24.06",
+    "max_anki_version": ""
+}
