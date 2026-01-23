@@ -1,9 +1,9 @@
 {
     "package": "browser_navigation",
     "name": "Browser Navigation Buttons",
-    "author": "",
+    "author": "FlaccidSnake",
     "version": "1.0.0",
-    "homepage": "",
+    "homepage": "https://github.com/FlaccidSnake/Navigation-Buttons",
     "conflicts": [],
     "min_anki_version": "24.06",
     "max_anki_version": ""

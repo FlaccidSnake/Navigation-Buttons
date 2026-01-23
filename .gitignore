@@ -4,6 +4,5 @@ __pycache__/
 *$py.class
 
 # Anki metadata and user configs
-meta.json
 user_files/
 *.ankiaddon
