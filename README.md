@@ -31,6 +31,9 @@ I got tired of searching for something, then clicking on a tag, then having to m
 
 ## Changelog
 
+### Version 1.0.1
+- Fixed bug where button symbols didn't appear after updating to Anki 25.09.2 
+
 ### Version 1.0.0
 - Initial release
 - Back/forward navigation buttons

@@ -47,10 +47,12 @@ def add_navigation_buttons(browser):
     
     # Create back button
     if config.get("show_back_button", True):
-        back_button = QPushButton("◀")
+        back_button = QToolButton()
+        back_button.setText("◀")
         back_button.setToolTip("Go back in search history (Alt+Left)")
-        back_button.setFlat(True)
-        back_button.setMaximumWidth(30)
+        back_button.setAutoRaise(True)
+        back_button.setFixedWidth(30)
+        back_button.setFixedHeight(25)
         back_button.setEnabled(False)
         browser._search_back_button = back_button
         
@@ -61,10 +63,12 @@ def add_navigation_buttons(browser):
     
     # Create forward button  
     if config.get("show_forward_button", True):
-        forward_button = QPushButton("▶")
+        forward_button = QToolButton()
+        forward_button.setText("▶")
         forward_button.setToolTip("Go forward in search history (Alt+Right)")
-        forward_button.setFlat(True)
-        forward_button.setMaximumWidth(30)
+        forward_button.setAutoRaise(True)
+        forward_button.setFixedWidth(30)
+        forward_button.setFixedHeight(25)
         forward_button.setEnabled(False)
         browser._search_forward_button = forward_button
         
